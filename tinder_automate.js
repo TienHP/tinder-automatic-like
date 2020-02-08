@@ -7,7 +7,7 @@ setInterval(() => {
 
   randomNo = Math.random()
 
-    if (randomNo <= .90) // to like 50% of profiles,
+    if (randomNo <= .90) // to like 90% of profiles,
       like.click()
     else 
       dislike.click()
